@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+
+button {
+    background-color: dodgerblue;
+    border: none;
+    color: black;
+    padding: 80px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+button:hover
+{
+    font-size: 50px;
+    background-color: navy;
+}

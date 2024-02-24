@@ -1,0 +1,20 @@
+button {
+    background-color: gray;
+    border: none;
+    color: red;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: overline;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 10px;
+}
+
+button:hover
+{
+    background-color: pink;
+}

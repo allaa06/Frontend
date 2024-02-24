@@ -1,0 +1,16 @@
+button {
+    background-color: pink;
+    border: none;
+    color: black;
+    padding: 80px 80px;
+    text-align: center;
+    text-decoration: overline;
+    display: inline-block;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    font-size: 50px;
+    background-color:red;
+}

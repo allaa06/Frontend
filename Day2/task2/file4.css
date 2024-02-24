@@ -1,0 +1,15 @@
+button {
+    padding: 60px 60px;
+    margin: 0;
+    border-style: double;
+    cursor: pointer;
+    font-size: 80px;
+    align-items: center;
+    justify-content: space-between;
+    display: inline;
+}
+
+button:hover {
+    font-size: 80px;
+    background-color: grey;
+}
