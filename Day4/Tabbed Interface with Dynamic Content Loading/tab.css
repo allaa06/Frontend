@@ -1,0 +1,27 @@
+
+.tab-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .tabs {
+    display: flex;
+  }
+  
+  .tab-btn {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
