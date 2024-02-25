@@ -21,7 +21,7 @@ form {
   }
   
   input[type="text"] {
-    width: calc(100% - 12px); /* Adjust width to fit within the container */
+    width: calc(100% - 12px); 
     padding: 8px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
