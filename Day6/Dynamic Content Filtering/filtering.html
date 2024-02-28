@@ -1,0 +1,26 @@
+<!DOCTYPE html
+<head>
+  <title>Dynamic Content Filtering</title>
+  <link rel="stylesheet" href="filering.css">
+</head>
+<body>
+  <div id="filters">
+    <label for="category">Category:</label>
+    <select id="category">
+      <option value="">All</option>
+      <option value="Home">Home</option>
+      <option value="Apparel">Apparel</option>
+      <option value="Electronics">Electronics</option>
+    </select>
+
+    <fieldset>
+      <legend>Tags:</legend>
+      <label><input type="checkbox" value="eco-friendly"> Eco-friendly</label>
+      <label><input type="checkbox" value="new"> New</label>
+      <label><input type="checkbox" value="sale"> Sale</label>
+    </fieldset>
+  </div>
+  <script src="filtering.js"></script>
+  <div id="products"></div>
+  </body>
+  </html>
