@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Searcher</title>
+    <link rel="stylesheet" href="search.css">
+    <script src="https://kit.fontawesome.com/62bb260dec.js" crossorigin="anonymous"></script>
+    <i class="fa-solid fa-user"></i>
+</head>
+
+<body>
+    <h1>Search Engine</h1><br><br>
+    <form id="searcher" action="info.html" method="get">
+        <label for="searcher"></label>
+        <input type="text" id="searcher" name="searcher">
+        <button type="submit" onclick="go_to_another_file()">Submit</button>
+    </form>
+    <script>
+        function go_to_another_file()
+        {
+            document.getElementById("data").submit();
+            window.location.href = "info.html";
+        }
+    </script>
+</body>
+</html>

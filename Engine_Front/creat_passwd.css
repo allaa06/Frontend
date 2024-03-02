@@ -1,0 +1,67 @@
+body {
+    background-color: #f3e5f5; /* Pastel purple */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+button {
+    background-color: #ff80ab; /* Pastel pink */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #e64a8e; /* Darker pastel pink */
+}
+
+h1 {
+    color: #8e24aa; /* Dark pastel purple */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    color: #8e24aa; /* Dark pastel purple */
+}
+
+input[type="text"], input[type="password"] {
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #8e24aa; /* Dark pastel purple */
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    outline: none;
+    border-color: #ff80ab; /* Pastel pink */
+}
+
+input[type="submit"] {
+    background-color: #ff80ab; /* Pastel pink */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover {
+    background-color: #e64a8e; /* Darker pastel pink */
+}

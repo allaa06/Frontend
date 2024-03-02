@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Account interface</title>
+    <link rel="stylesheet" href="account.css">
+    <script src="https://kit.fontawesome.com/62bb260dec.js" crossorigin="anonymous"></script>
+    <i class="fa-solid fa-user"></i>
+</head>
+
+<body>
+    <h1>Your account</h1>
+    <div id="receive_data"></div>
+    <script>
+        let params = new URLSearchParams(window.location.search);
+        let receive_name = params.get('name');
+        let receive_mail = params.get('mail');
+        let receive_passwd = params.get('passwd');
+        document.getElementById('receive_data').innerText = "Name: " + receive_name + "\n\n\nMail: " + receive_mail ;
+    </script>
+    <br><br>
+      <a href="register.html">
+        <button>Add</button> 
+    </a><br><br>
+    <a href="settings.html">
+        <button>Settings</button>  
+    </a><br><br>
+    <br><br>
+    <a href="search.html">
+        <button>Next</button> 
+    </a>
+</body>
+</html>

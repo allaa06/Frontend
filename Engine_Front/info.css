@@ -1,0 +1,83 @@
+.fa-user {
+    position: absolute;
+    top: 4%;
+    font-size: 30px;
+    right: 10px; 
+    transform: translateY(-30%);
+}
+
+
+body {
+    background-color: #f3e5f5; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #8e24aa; 
+}
+
+p {
+    color: #1565c0; 
+}
+
+a {
+    color: #ff80ab; 
+    text-decoration: none;
+}
+
+button {
+    background-color: #ff80ab; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #e64a8e; 
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    color: #8e24aa; 
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #8e24aa; 
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #ff80ab; 
+}
+
+#pageTitle {
+    color: #8e24aa; 
+}
+
+#searcherInput {
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #1565c0; 
+    transition: width 0.5s ease; 
+}
+
+.hidden {
+    display: none;
+}

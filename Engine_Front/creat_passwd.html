@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Creat password page</title>
+    <link rel="stylesheet" href="creat_passwd.css">
+</head>
+<body>
+    <h1>Creat password</h1>
+    <form id = "data" action="UML" method="get">
+        <label for="passwd">Enter password</label>
+        <input type="text" id="passwd" name="passwd"><br><br>
+        <label for="confirm">Confirm password</label>
+        <input type="confirm" id="passwd" name="confirm"><br><br>
+        <button type="button" onclick="go_to_another_file()">Next</button>
+    </form>
+
+    <script>
+        function go_to_another_file()
+        {
+            document.getElementById("data").submit();
+            window.location.href = "account.html";
+        }
+    </script>
+</body>
+</html>

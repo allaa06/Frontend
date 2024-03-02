@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration page</title>
+    <link rel="stylesheet" href="register.css">
+   <script src="https://kit.fontawesome.com/62bb260dec.js" crossorigin="anonymous"></script>
+   <i class="fa-solid fa-user"></i>
+</head>
+<body>
+
+    <h1>Please register</h1>
+    <p>
+        If you have an account
+    <a href="account.html">
+        <button>Login</button>
+    </a>
+    </p>
+
+    <form id="data" action="account.html" method="get">
+        <label for="name">Name</label>
+        <input type="text " id="name" name="name"><br><br>
+        <label for="mail">Mail</label>
+        <input type="text" id="mail" name="mail"><br><br>
+        <label for="passwd">Mail password</label>
+        <input type="text" id="passwd" name="passwd"><br><br>
+        <button type="button" onclick="go_to_another_file()">Next</button>
+    </form>
+
+    <script>
+        function go_to_another_file()
+        {
+            document.getElementById("data").submit();
+            window.location.href = "creat_passwd.html";
+        }
+    </script>
+</body>
+</html>
