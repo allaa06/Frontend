@@ -1,42 +1,66 @@
-<!DOCTYPE html>
-<head>
-    <title>Page with information</title>
-    <link rel="stylesheet" href="info.css">
-    <script src="https://kit.fontawesome.com/62bb260dec.js" crossorigin="anonymous"></script>
-    <i class="fa-solid fa-user"></i>
-</head>
-<body>
-    <h1 id="pageTitle"></h1>
-    <form id="searcher" action="UML" method="get">
-        <label for="searcher"></label>
-        <input type="text" id="searcherInput" name="searcher">
-        <button type="submit">Submit</button>
-    </form>
+body {
+    background-color: #f3e5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-    <script>
-        function handleEnterKey(event) {
-            window.onload = function() {
+form {
+    margin-top: 20px;
+}
 
-            const queryString = window.location.search;
-            const urlParams = new URLSearchParams(queryString);
-            const searchTerm = urlParams.get('searcher');
-            document.getElementById('pageTitle').innerText = "Search term: " + searchTerm;
-            }
+.fa-solid.fa-user {
+    color: #8e24aa;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
 
-            if (event.key === 'Enter') {
-                document.getElementById('pageTitle').classList.add('hidden');
-                document.getElementById('searcherInput').style.width = '80%'; 
-            }
-        }
+h1 {
+    color: #8e24aa;
+}
 
-        function handleCtrlR(event) {
-            if (event.ctrlKey && event.key === 'r') {
-                location.reload(); 
-            }
-        }
+a {
+    color: #ff80ab;
+    text-decoration: none;
+}
 
-        document.addEventListener('keydown', handleEnterKey);
-        document.addEventListener('keydown', handleCtrlR);
-</script>
-</body>
-</html>
+p {
+    color: #1565c0;
+}
+
+label {
+    color: #8e24aa;
+    font-size: 30px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #ff80ab;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #8e24aa;
+}
+
+button {
+    background-color: #ff80ab;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #e64a8e;
+}
+
